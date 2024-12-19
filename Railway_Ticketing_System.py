@@ -50,7 +50,6 @@ def main():
         print("Invalid input for the number of tickets. Please enter an integer.")
         return
 
-    # Calculate the total price
     total_price = prices[destination] * ticket_count
 
     # Display transaction summary
